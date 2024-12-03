@@ -1,9 +1,9 @@
 name: Deploy
 on:
   push:
-    branches: main
+    branches: master
   pull_request:
-    branches: main
+    branches: master
 
 jobs:
   deploy:
@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "portfolio-renner"
-          entrypoint: "./main.ts"
-          root: ""
+          entrypoint: "main.ts"
+          root: "."
           
           
