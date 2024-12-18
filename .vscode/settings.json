@@ -4,5 +4,8 @@
   "editor.defaultFormatter": "denoland.vscode-deno",
   "[tailwindcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
